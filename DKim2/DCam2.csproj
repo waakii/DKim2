@@ -7,8 +7,8 @@
     <ProjectGuid>{36883C36-3246-40D3-B917-C3B2A5171924}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DKim2</RootNamespace>
-    <AssemblyName>DKim2</AssemblyName>
+    <RootNamespace>DCam2</RootNamespace>
+    <AssemblyName>DCam2</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />

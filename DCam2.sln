@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DKim2", "DKim2\DKim2.csproj", "{36883C36-3246-40D3-B917-C3B2A5171924}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DCam2", "DKim2\DCam2.csproj", "{36883C36-3246-40D3-B917-C3B2A5171924}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{05BCE7D9-67D5-4D90-8E0F-7B2BDFCEF378}"
 	ProjectSection(SolutionItems) = preProject

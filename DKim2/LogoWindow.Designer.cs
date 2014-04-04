@@ -1,4 +1,4 @@
-﻿namespace DKim2
+﻿namespace DCam2
 {
     partial class LogoWindow
     {

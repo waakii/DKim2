@@ -8,7 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.Reflection;
 
-namespace DKim2
+namespace DCam2
 {
     public partial class LogoWindow : Form
     {
@@ -20,7 +20,7 @@ namespace DKim2
             Version v = assemObj.GetName().Version;
 
             pictureBox1.Size = new Size(this.Width, this.Height);
-            Bitmap logo = new Bitmap(global::DKim2.Properties.Resources.DKIM2logo);
+            Bitmap logo = new Bitmap(global::DCam2.Properties.Resources.DKIM2logo);
             logo.MakeTransparent();
             pictureBox1.Image = logo;
 

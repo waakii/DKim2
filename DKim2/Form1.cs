@@ -15,7 +15,7 @@ using System.Drawing.Imaging;
 using Gma.UserActivityMonitor;
 using Ini;
 
-namespace DKim2
+namespace DCam2
 {
     public partial class MainWindow : Form
     {
