@@ -44,7 +44,7 @@ namespace DCam2
 
         private void MainWindow_Shown(object sender, EventArgs e)
         {
-            this.TopMost = true;
+            //this.TopMost = true;
 
             //List all available video sources. (That can be webcams as well as tv cards, etc)
             FilterInfoCollection videosources = new FilterInfoCollection(FilterCategory.VideoInputDevice);
@@ -60,7 +60,7 @@ namespace DCam2
             {
                 bCameraDetected = false;
                 string[] splitedMoniker;
-
+                
                 for (int i = 0; i < videosources.Count; i++)
                 {
                     //System.Console.WriteLine(videosources[i].MonikerString);
@@ -76,6 +76,8 @@ namespace DCam2
                         }
                     }
                 }
+                //iCurrentCAMNum = 0;
+                //bCameraDetected = true;
                 if (bCameraDetected == false) return;
 
                 //For example use first video device. You may check if this is your webcam.
